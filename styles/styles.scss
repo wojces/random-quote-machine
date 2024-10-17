@@ -1,0 +1,67 @@
+$main-fonts: Lato, sans-serif;
+$main-color: var(--main-color);
+$hover-color: var(--hover-color);
+$active-color: var(--active-color);
+
+body {
+  background-color: $main-color;
+  box-sizing: border-box;
+}
+
+#quote-box {
+  background-color: #f8f9fa;
+  padding: 30px 50px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#text {
+  margin: 0;
+  text-align: center;
+  font-family: $main-fonts;
+  color: $main-color;
+}
+
+#author {
+  font-family: $main-fonts;
+  font-weight: 300;
+  text-align: end;
+  margin: 0;
+  padding: 10px 0 20px 0;
+  color: $main-color;
+}
+
+#new-quote {
+  text-align: center;
+}
+
+.button-row {
+  margin: 0;
+  padding: 0;
+}
+
+.button {
+  font-family: $main-fonts;
+  display: inline-block;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  background-color: $main-color;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  padding: 0.375rem 0.75rem;
+  transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,
+    color 0.15s ease-in-out;
+
+  &:hover {
+    background-color: $hover-color;
+    border-color: $hover-color;
+  }
+
+  &:active {
+    background-color: $active-color;
+    border-color: $active-color;
+  }
+}

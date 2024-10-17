@@ -1,3 +1,3 @@
 ### Random Quote Machine
 
-[visit app](https://wojces.github.io/random-quote-machine/)
+[visit project site](https://wojces.github.io/random-quote-machine/)
